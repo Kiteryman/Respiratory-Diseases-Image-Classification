@@ -12,21 +12,12 @@ The dataset used for this project is the **Balanced Augmented COVID CXR Dataset*
   ```bash
 import splitfolders
 
-
 val_ratio = 300 / total_images
 test_ratio = 0.2
 train_ratio = 1.0 - val_ratio - test_ratio
 
-# 2. Perform the split
 # This creates three folders: train, val, and test
-splitfolders.ratio(
-    input_folder, 
-    output="Output",
-    seed=42, 
-    ratio=(train_ratio, val_ratio, test_ratio), 
-    group_prefix=None, 
-    move=False
-)
+splitfolders.ratio(input_folder, output="Output", seed=42, ratio=(train_ratio, val_ratio, test_ratio))
 ```
 
 ---
