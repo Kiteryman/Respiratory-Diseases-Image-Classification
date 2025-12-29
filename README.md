@@ -46,8 +46,8 @@ Based on the test set evaluation of **6,004 samples**, the model achieves an **O
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/covid-resnet-gem.git
-   cd covid-resnet-gem
+   git clone https://github.com/Kiteryman/Respiratory-Diseases-Image-Classification.git
+   cd Respiratory-Diseases-Image-Classification
    ```
 2. Install dependencies:
    ```bash
