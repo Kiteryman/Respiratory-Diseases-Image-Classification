@@ -8,6 +8,26 @@ The dataset used for this project is the **Balanced Augmented COVID CXR Dataset*
 
 *   **Dataset Link:** [Balanced Augmented COVID CXR Dataset](https://www.kaggle.com/datasets/tr1gg3rtrash/balanced-augmented-covid-cxr-dataset)
 *   **Description:** This dataset is a balanced and augmented version of the original Chest X-Ray dataset, designed to address class imbalance and improve model generalization for medical imaging tasks.
+*   **Data Splitting:**
+  ```bash
+import splitfolders
+
+
+val_ratio = 300 / total_images
+test_ratio = 0.2
+train_ratio = 1.0 - val_ratio - test_ratio
+
+# 2. Perform the split
+# This creates three folders: train, val, and test
+splitfolders.ratio(
+    input_folder, 
+    output="Output",
+    seed=42, 
+    ratio=(train_ratio, val_ratio, test_ratio), 
+    group_prefix=None, 
+    move=False
+)
+```
 
 ---
 
