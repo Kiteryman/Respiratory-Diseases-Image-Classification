@@ -1,6 +1,4 @@
-
-
-# COVID-19 Radiography Classification with Improved ResNet-34
+# Respiratory Diseases Radiography Classification with Improved ResNet-34
 
 This repository contains a high-performance deep learning pipeline for classifying radiographic images into four categories: **COVID-19**, **Lung Opacity**, **Normal**, and **Viral Pneumonia**. The model utilizes a custom **Improved ResNet-34** architecture incorporating GeM Pooling, Squeeze-and-Excitation (SE) blocks, and advanced data augmentation.
 
