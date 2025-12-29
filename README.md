@@ -40,29 +40,3 @@ Based on the test set evaluation of **6,004 samples**, the model achieves an **O
 | **TOTAL / AVG** | **6004** | **5869** | **97.93%** | **97.75%** | **97.83%** |
 
 ---
-
-## 🛠️ Installation & Usage
-
-### Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Kiteryman/Respiratory-Diseases-Image-Classification.git
-   cd Respiratory-Diseases-Image-Classification
-   ```
-2. Install dependencies:
-   ```bash
-   pip install torch torchvision numpy matplotlib seaborn scikit-learn tqdm
-   ```
-3. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/tr1gg3rtrash/balanced-augmented-covid-cxr-dataset) and organize it:
-   ```text
-   Output/
-   ├── train/
-   ├── val/
-   └── test/
-   ```
-
-### Training & Testing
-The script handles both training (with checkpoint resumption) and final evaluation:
-```bash
-python code.py
-```
