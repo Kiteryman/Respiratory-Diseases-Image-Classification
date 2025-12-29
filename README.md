@@ -4,7 +4,7 @@ This repository contains a high-performance deep learning pipeline for classifyi
 
 ## 📂 Data Attribution
 
-The dataset used for this project is the **Balanced Augmented COVID CXR Dataset**, curated and provided by **Aman (tr1gg3rtrash)** via Kaggle.
+The dataset used for this project is the **Balanced Augmented COVID CXR Dataset**, curated and provided by **Mrinal Tyagi** via Kaggle.
 
 *   **Dataset Link:** [Balanced Augmented COVID CXR Dataset](https://www.kaggle.com/datasets/tr1gg3rtrash/balanced-augmented-covid-cxr-dataset)
 *   **Description:** This dataset is a balanced and augmented version of the original Chest X-Ray dataset, designed to address class imbalance and improve model generalization for medical imaging tasks.
